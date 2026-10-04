@@ -1,0 +1,8 @@
+name: github-workflow-test
+on: workflow_dispatch
+jobs:
+  demo-job:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: simple hello message
+        run: echo "simple hello message"
